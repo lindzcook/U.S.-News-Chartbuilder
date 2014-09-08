@@ -99,8 +99,8 @@ Gneiss.defaultGneissChartConfig = {
 			data: ["juicyness","color","flavor","travelability"]
 		}
 	],
-	sourceline: "",
-	creditline: "Made with Chartbuilder"
+	sourceline: "Source: Bureau of Labor Statistics",
+	creditline: "TKTKTKTK for USN&WR"
 };
 
 Gneiss.dateParsers = {
