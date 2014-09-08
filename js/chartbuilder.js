@@ -781,7 +781,6 @@ ChartBuilder.getDefaultConfig = function() {
   chartConfig.colors = ['#a3bfdb','#75a0c8','#4780b6','#1860a4','#15508a','#0d3e70','#062955','#011038',
 						'#f5a4ac','#f17783','#ec4959','#e71b30','#bf1426','#9a0917','#760506','#510002',
 						'#fbd9ad','#f9c685','#f7b45c','#f5a133','#ca8629','#a26b1b','#7c510b','#543305'];
-  chartConfig.creditline = "TKTKT for USN&WR";
   
   return chartConfig;
 };
