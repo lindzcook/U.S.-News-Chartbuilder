@@ -572,7 +572,7 @@ ChartBuilder = {
 			series: g.series(),
 			xAxisRef: g.xAxisRef(),
 			sourceline: g.source(),
-			creditline: g.credit()
+			creditline: ""
 		};
 		
 		//chart = g;
@@ -1038,11 +1038,11 @@ ChartBuilder.start = function(config) {
 		ChartBuilder.inlineAllStyles();
 	});
 	
-	$("#creditLine").keyup(function() {
-		var val = $(this).val();
-		chart.credit(val);
-		chart.creditElement().text(chart.credit());
-	});
+	// $("#creditLine").keyup(function() {
+	// 	var val = $(this).val();
+	// 	chart.credit(val);
+	// 	chart.creditElement().text(chart.credit());
+	// });
 		
 	$("#sourceLine").keyup(function() {
 		var val = $(this).val();
