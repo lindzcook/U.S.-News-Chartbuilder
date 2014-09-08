@@ -102,6 +102,7 @@
     					</div>
     					<div class="optionBlock">
     					<h2>5. Bottom Axis Options</h2>
+    					<p>To use this feature, you must have a data column named 'date'<p>
 						<div class="optionGroup showonlywith-date">
 							<label for="x_axis_tick_date_frequency">Tick date frequency</label><select name="x_axis_tick_date_frequency" id="x_axis_tick_date_frequency" size="1">
 								<option selected>auto</option>
@@ -142,7 +143,7 @@
               <div class="optionGroup showonlywith-ordinal">No options available</div>
             </div>
             <div class="optionBlock full">
-              <h2>4. Export</h2>
+              <h2>5. Export</h2>
               <div class="updateButton" id="createImageButton">
                 <p>Create Image of Chart</p>
               </div>
@@ -151,15 +152,7 @@
                 <a download="new_chart.svg" id="downloadSVGLink" class="downloadLink" href="#" target="_blank">Download&nbsp;SVG&nbsp;of&nbsp;Chart</a>
               </div>
             </div>
-            <div class="optionBlock full">
-              <h4>5. Copy the HTML table of your data (if you want)</h4>
-            <textarea  class="input-box"  id="table-html" type="text" rows="10"></textarea>
-              <div class="previousCharts hide">
-                <div class="optionGroup"><label for="previous_charts">Previously Created Charts</label>
-                  <select name="previous_charts" id="previous_charts"></select>
-                </div>
-              </div>
-            </div>
+            
             <div class="clearfix"></div>
   				</div>
   				
