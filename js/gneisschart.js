@@ -37,7 +37,7 @@ Gneiss.defaultGneissChartConfig = {
 	primaryAxisPosition: "left", // the first axis will be rendered on this side, "right" or "left" only
 	allowAxisOverlap: false,
 	legend: true, // whether or not there should be a legend
-	title: "", // the chart title 
+	title: "When Approval is Low, More People Vote", // the chart title 
 	titleBottomMargin: 5, // the vertical space between the title and the next element (sometimes a legend, sometimes an axis)
 	bargridLabelBottomMargin: 5, //the space between the bargrid series label and the top most bar
 	colors: ['#a3bfdb','#75a0c8','#4780b6','#1860a4','#15508a','#0d3e70','#062955','#011038',
@@ -67,7 +67,7 @@ Gneiss.defaultGneissChartConfig = {
 				use: "top" //can be "top" "all" "positive" or "negative"
 			},
 			suffix: {
-				value: "",
+				value: " %",
 				use: "top"
 			},
 			ticks: 4,
@@ -77,16 +77,16 @@ Gneiss.defaultGneissChartConfig = {
 	],
 	series: [
 		{
-			name: "apples",
-			data: [5.5,10.2,6.1,3.8],
+			name: "Congressional Job Approval",
+			data: [23, 44, 50, 26, 21],
 			source: "Some Org",
 			type: "line",
 			axis: 0,
 			color: null
 		},
 		{
-			name: "oranges",
-			data: [23,10,13,7],
+			name: "Voter Turnout",
+			data: [41.1, 38.1, 39.5, 40.4, 40.9],
 			source: "Some Org",
 			type: "line",
 			axis: 0,
@@ -96,10 +96,10 @@ Gneiss.defaultGneissChartConfig = {
 	xAxisRef: [
 		{
 			name: "names",
-			data: ["juicyness","color","flavor","travelability"]
+			data: ["'94","'98","'02","'06", "'10"]
 		}
 	],
-	sourceline: "NAME for USN&WR; Source: Bureau of Labor Statistics",
+	sourceline: "Lindsey Cook for USN&WR; Source: Gallup",
 	creditline: ""
 };
 
