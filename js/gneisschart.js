@@ -40,7 +40,9 @@ Gneiss.defaultGneissChartConfig = {
 	title: "", // the chart title 
 	titleBottomMargin: 5, // the vertical space between the title and the next element (sometimes a legend, sometimes an axis)
 	bargridLabelBottomMargin: 5, //the space between the bargrid series label and the top most bar
-	colors: ["#ff4cf4","#ffb3ff","#e69ce6","#cc87cc","#b373b3","#995f99","#804c80","#665266","#158eff","#99cdff","#9cc2e6","#87abcc","#7394b3","#5f7d99","#466780","#525c66"], 
+	colors: ['#a3bfdb','#75a0c8','#4780b6','#1860a4','#15508a','#0d3e70','#062955','#011038',
+						'#f5a4ac','#f17783','#ec4959','#e71b30','#bf1426','#9a0917','#760506','#510002',
+						'#fbd9ad','#f9c685','#f7b45c','#f5a133','#ca8629','#a26b1b','#7c510b','#543305'], 
 	padding :{
 		top: 5,
 		bottom: 50,
