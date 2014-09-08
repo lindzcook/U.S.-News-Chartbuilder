@@ -77,4 +77,5 @@ svg .seriesScatter circle {
 #titleLine {
 	font-family: 'Cutive',Helvetica, sans-serif;
 	fill: #666666;
-}
+	font-size: 130%;
+	}
