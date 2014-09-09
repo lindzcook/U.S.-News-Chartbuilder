@@ -71,11 +71,10 @@ svg path.seriesLine {
 
 svg .seriesScatter circle {
 	stroke:#fff;
-	stroke-width":1;
+	stroke-width:1;
 }
 	
 #titleLine {
 	font-family: 'Cutive',Helvetica, sans-serif;
-	fill: #666666;
-	font-size: 130%;
+	fill: #666666;	
 	}
