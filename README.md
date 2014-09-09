@@ -1,4 +1,4 @@
-U.S News Chartbuilder
+U.S. News Chartbuilder
 ----------------------
 
 How to use Chartbuilder
