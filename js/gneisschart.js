@@ -87,7 +87,7 @@ Gneiss.defaultGneissChartConfig = {
 			data: ["'94","'98","'02","'06","'10"]
 		}
 	],
-	sourceline: "NAME for USN&WR; Source: Bureau of Labor Statistics",
+	sourceline: "NAME for USN&WR; Source: Gallup",
 	creditline: ""
 };
 
