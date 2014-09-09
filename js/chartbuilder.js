@@ -296,6 +296,7 @@ ChartBuilder = {
 
 		var canvasContext = canvas.getContext("2d");
 		var svg = $.trim(document.getElementById("chartContainer").innerHTML);
+
 		canvasContext.drawSvg(svg,0,0);
 
 		var logo = new Image();
@@ -313,9 +314,9 @@ ChartBuilder = {
 		}
 		
 		filename = filename.join("-").replace(/[^\w\d]+/gi, '-');
-		
-		console.log(canvas.toDataURL("png"));
 
+		console.log(canvas.toDataURL("png"));
+		
 		$("#downloadImageLink").attr("href",canvas.toDataURL("png"))
 			.attr("download",function(){ return filename + "_chartbuilder.png";
 			});

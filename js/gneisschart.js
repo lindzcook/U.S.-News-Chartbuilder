@@ -1493,7 +1493,8 @@ function Gneiss(config)
 			
 			//create a group to contain series
 			g.seriesContainer = g.chartElement().append("g")
-				.attr("id","seriesContainer");				
+				.attr("id","seriesContainer")
+				.attr("y", 20);				
 				
 			lineSeries = g.seriesContainer.selectAll("path");
 			columnSeries = g.seriesContainer.selectAll("g.seriesColumn");
