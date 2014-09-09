@@ -37,7 +37,7 @@ Gneiss.defaultGneissChartConfig = {
 	primaryAxisPosition: "left", // the first axis will be rendered on this side, "right" or "left" only
 	allowAxisOverlap: false,
 	legend: true, // whether or not there should be a legend
-	title: "", // the chart title 
+	title: "When Approval is Low, More People Vote", // the chart title 
 	titleBottomMargin: 5, // the vertical space between the title and the next element (sometimes a legend, sometimes an axis)
 	bargridLabelBottomMargin: 5, //the space between the bargrid series label and the top most bar
 	colors: ['#a3bfdb','#75a0c8','#4780b6','#1860a4','#15508a','#0d3e70','#062955','#011038',
