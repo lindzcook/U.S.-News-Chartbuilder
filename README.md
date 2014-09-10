@@ -4,9 +4,10 @@ U.S. News Chartbuilder
 How to use Chartbuilder
 ------------------------
 ###Getting started
-If you are not interested in customizing the styles of your charts use the hosted version: http://quartz.github.io/Chartbuilder/
+Start making charts now: http://lindseycook.io/U.S.-News-Chartbuilder/
 
-Alternatively: 
+To customize this, you can: 
+
 ####Download via github
 1. [Download source](https://github.com/Quartz/Chartbuilder/archive/master.zip) (and unzip)
 2. from the terminal navigate to the source folder (on a Mac: `cd ~/Downloads/Chartbuilder-master/`) 
@@ -39,10 +40,3 @@ Alternatively:
 ####Mixed
 <img src="http://quartz.github.io/Chartbuilder/images/mixed1.jpeg" />
 <img src="http://quartz.github.io/Chartbuilder/images/mixed2.jpeg?cache=0" />
-
-To-Dos
-------------------------
-* Add title padding
-* Fix Logo on PNG
-* Change Axis to the left
-* Add label options
